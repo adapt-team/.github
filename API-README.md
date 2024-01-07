@@ -1,6 +1,6 @@
 ## API Reference
 
-#### Get all items
+#### Authorize into lavalink server
 
 ```http
   GET /api/v1/lavalink
@@ -10,7 +10,7 @@
 | :-------- | :------- | :------------------------- |
 | `authorization` | `string` | **Required**. API Token |
 
-#### Get item
+#### Get project version
 
 ```http
   GET /api/v1/version
